@@ -8,7 +8,7 @@ public class PrintProgram {
     
     public static void main(String[] args) {
         System.out.println("Test programu");
-        System.out.println("Tekst na próbę  3 2 1");
+        System.out.println("Tekst na próbę");
     }
     
 }
