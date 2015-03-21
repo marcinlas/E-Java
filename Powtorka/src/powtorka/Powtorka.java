@@ -3,33 +3,67 @@ package powtorka;
     
         
 
+class Byt{
+    
+    int i = 0;
+    
+    void uczenieSie(){
+         System.out.println("Bytowanie"); 
+    }
+}        
+
+ class Nauka extends Byt{
+     
+     int ii = 1;
+     
+       void uczenieSie(){
+     /// System.out.println("Nauka - uczenie");
+           super.uczenieSie();
+       }
+}        
+
+    class Filozofia extends Nauka{
+          
+        int iii = 2;
+        
+      //@Override
+      //void uczenieSie(){
+       //System.out.println("Uczę się filozofii!");
+      // }
+       
+       void dluuuugieUczenieSie(){
+       //uczenieSie();
+           
+           System.out.println(iii);
+         
+           
+           
+       };
+      
+    }
+          
+    
+    class Matematyka extends Nauka {
+        Matematyka(){uczenieSie();
+    } };
+        
+
+
+
 public class Powtorka {
 
     
     public static void main(String[] args) {
         
-       // System.out.print(Student.uczelnia);
+        
+        //new Nauka().uczenieSie();
+        new Filozofia().dluuuugieUczenieSie();
+        
+        //new Matematyka().uczenieSie();
+        
+       //System.out.print(Student.uczelnia);
       //
      //  System.out.println(new Student().imie);  // przy "new" zawsze musi być nawias
-        
-
-        
-    class Nauka {
-        void uczenieSie(){}
-}        
-
-    class Filozofia extends Nauka {
-        
-        // konstruktor domyślny
-        Filozofia(){uczenieSie();           
-        }
-    }
-    
-    class Matematyka extends Nauka {
-    };
-        
-         
-        
         
 
         //Typy prymitywne całkowite
