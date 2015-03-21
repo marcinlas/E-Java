@@ -1,7 +1,5 @@
 package rzutowanie;
 
-()
-{}
 
 
 class Budynek {
@@ -25,6 +23,8 @@ class Laboratorium extends Budynek {
 
 public class Rzutowanie {
     
+    
+   
     // wszystko jest obiektem, dziedzicyz po obiekcie!
     
     public static void main(String[] args) {
@@ -86,7 +86,13 @@ public class Rzutowanie {
 
     //senat2.korupcja();
     
+    String akumulacja;
+    System.out.println(akumulacja);
+    
 }
+    
+ 
+    
     
     
     
