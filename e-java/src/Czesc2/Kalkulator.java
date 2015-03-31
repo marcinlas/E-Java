@@ -22,7 +22,7 @@ public class Kalkulator
         System.out.println("Pole trójkąta: 1/2 " + bokA + " * " + bokB +
                 " = " + 1.2 * bokA * bokB  );
         
-        System.out.println("Pole koła: " + liczbaPi + " * " + promienKola + "*v2" + " = " + liczbaPi * promienKola );
+        System.out.println("Pole koła: " + liczbaPi + " * " + promienKola + "*v2" + " = " + liczbaPi * (promienKola*promienKola));
     }
     
 }
