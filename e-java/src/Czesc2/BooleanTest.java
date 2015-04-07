@@ -1,7 +1,7 @@
 
 package Czesc2;
 
-public class BooleanTest 
+public class BooleanTest   // sprawdzanie prawdy i fałszu
 {
     public static void main(String[] args) 
     {
@@ -13,7 +13,7 @@ public class BooleanTest
         System.out.println("b = " + b);
         System.out.print("a == b: ");
         
-        System.out.println(a==b);
+        System.out.println(a == b);
         
         //przypisanie wartości b do a
         a = b;

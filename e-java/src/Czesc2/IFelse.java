@@ -5,24 +5,21 @@ public class IFelse
 {
     public static void main(String[] args)         
         {
-            int a = 114;
-            int b = 114;
+            int a = 2114;
+            int b = 2114;
             
             if(a>b) 
             {
-             System.out.println(a +
-              " jest większa od " + b);
+             System.out.println(a + " " + b + " jest większa od " + b);
             }
-            else if(a<b)
+            else if(a>b)
             {
-             System.out.println(b + 
-              " jest większe od " + a);
+                System.out.println("Liczba " + a + " jest równa liczbie " + b);
             }    
             else
             {
-             System.out.println("Liczba " + a +
-              " jest równa liczbie " + b);
-            }   
+                System.out.println(b + " jest większe od " + a);
+            }    
                 
         }
 }

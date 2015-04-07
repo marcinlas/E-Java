@@ -12,11 +12,10 @@ public class TextAndNumbers
     String imie = "Marcin ";
     String nazwisko = "Łaś";
     int dataUrodzenia = 1985;
-    int dataDzis = 2015;
+    int rokDzis = 2015;
     String plec = "mężczyzna";
-    int wiek = dataDzis - dataUrodzenia;
-    
-      
+    int wiek = rokDzis - dataUrodzenia;
+     
     System.out.println(imie + nazwisko + " - w tym roku mam " 
             + wiek + " lat. Moja płeć to " + plec + ".");
     
@@ -24,11 +23,8 @@ public class TextAndNumbers
     System.out.println("Dzisiejsza data to: " + aktualnaData.format(new Date()) );
     
     SimpleDateFormat aktualnyCzas = new SimpleDateFormat("kk:mm");
-    System.out.println("Aktualna godzina to: " + aktualnyCzas.format(new Date()) );
-    
-    }
-    
-    
+    System.out.println("Aktualna godzina to: " + aktualnyCzas.format(new Date()) );    
+    } 
 }    
 
     
