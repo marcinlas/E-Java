@@ -14,9 +14,9 @@ public class PorownajTrzyLiczby
 {
     public static void main(String[] args)
     {
-    int a = 402;
-    int b = 602;
-    int c = 402;
+    int a = 502;
+    int b = 702;
+    int c = 502;
     
     /*
     String imie = "Marcin";
@@ -80,10 +80,10 @@ public class PorownajTrzyLiczby
                     + a + "." + " Liczba \'B\' jest od nich mniejsza i wynosi "
                     + b + ".");
         }
-    else if((a==c) && (c<b))
+    else if((a==c) && (a<b))
         {
             System.out.println("Liczby \'A\' i \'C\' są równe i obie wynoszą "
-                    + a + "." + " Liczba \'B\' jest od nich większa i wynosi "
+                    + c + "." + " Liczba \'B\' jest od nich większa i wynosi "
                     + b + ".");
         }
             
