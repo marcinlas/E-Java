@@ -1,4 +1,6 @@
 
+//Program sprawdza parzystość liczba
+
 package Czesc2;
 
 public class LiczbyParzyste 
