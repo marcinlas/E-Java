@@ -16,7 +16,7 @@ public class BooleanTest
         System.out.println(a==b);
         
         //przypisanie wartości b do a
-        a=b;
+        a = b;
         
         // a i b są teraz równe
         System.out.println("a = " + a);
