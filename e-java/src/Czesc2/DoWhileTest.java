@@ -6,11 +6,14 @@ public class DoWhileTest {
         int a = 7;
         int limit = a + 10;
         
-        a++;
-        
-        do {
+      /*  do {
             System.err.println(a);
-        } while (a++ > limit);
+        } while (a++ > limit);        
+        */
+        
+        while (a++ > limit) {
+            System.err.println(a);
+        }
     }
     
 }
