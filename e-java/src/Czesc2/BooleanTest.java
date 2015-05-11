@@ -22,7 +22,7 @@ public class BooleanTest   // sprawdzanie prawdy i fałszu
         System.out.println("a = " + a);
         System.out.println("b = " + b);
         System.out.print("a == b: ");
-        System.out.println(a == b);
+        System.out.println(a == b); 
     }
     
 }
