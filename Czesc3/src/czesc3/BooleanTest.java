@@ -1,7 +1,7 @@
 
 package Czesc3;
 
-public class BooleanTest   // sprawdzanie prawdy i fałszu
+public class BooleanTest   // sprawdzanie prawdy i fałszu 
 {
     public static void main(String[] args) 
     {
