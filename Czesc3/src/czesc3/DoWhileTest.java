@@ -3,8 +3,8 @@ package Czesc3;
 
 public class DoWhileTest {
     public static void main(String[] args) {
-        int a = 7;
-        int limit = a + 10;
+        int a = 6;
+        int limit = a + 11;
         
       /*  do {
             System.err.println(a);
