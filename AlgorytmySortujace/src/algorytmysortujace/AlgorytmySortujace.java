@@ -12,7 +12,7 @@ public class AlgorytmySortujace {
                     int temp;
                     temp = a[j + 1];
                     a[j + 1] = a[j];
-                    a[j] = temp
+                    a[j] = temp;
                 }
             }
         } 
