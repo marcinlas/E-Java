@@ -6,7 +6,7 @@ public class IFelse
     public static void main(String[] args)         
         {
             int a = 2113;
-            int b = 2114;
+            int b = 2113;
             
             if(a>b) 
             {
