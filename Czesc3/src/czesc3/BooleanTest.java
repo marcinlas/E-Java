@@ -5,7 +5,7 @@ public class BooleanTest   // sprawdzanie prawdy i fałszu
 {
     public static void main(String[] args) 
     {
-        int a = 11;
+        int a = 12;
         int b = 23;
         
         // a i b nie są równe  
