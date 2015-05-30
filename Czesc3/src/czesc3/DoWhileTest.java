@@ -14,6 +14,5 @@ public class DoWhileTest {
         while (a++ < limit) {
             System.err.println(a);
         } 
-    }
-   
+    }   
 }
