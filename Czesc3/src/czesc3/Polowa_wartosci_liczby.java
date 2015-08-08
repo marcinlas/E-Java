@@ -12,3 +12,4 @@ package czesc3;
 public class Polowa_wartosci_liczby {
     
 }
+dupa
