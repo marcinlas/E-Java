@@ -1,14 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
+// program, który odlicza od 100 do 0 przy pomocy pętli WHILE
+
 package czesc3;
 
-/**
- *
- * @author Marcin
- */
 public class LiczbyParzyste_0_100 {
-    
+    public static void main(String[] args) {
+        
+        
+        
+        while {
+            ()
+        }
+        
+        
+    }
 }
