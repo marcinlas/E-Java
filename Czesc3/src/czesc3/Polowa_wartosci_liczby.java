@@ -14,3 +14,7 @@ public class Polowa_wartosci_liczby {
     }
 };
 };
+
+
+
+// POPRACOWAĆ NA DOWOLNYM WYBOREM POŁOWY LICZBY
