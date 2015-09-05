@@ -1,4 +1,7 @@
 
+// Zmodyfikuj program rysujący kwadrat tak, 
+// by inkrementacja widniała w warunkach a nie na końcu pętli.
+
 package czesc3;
 
 public class DrawRectangle_1 {  
