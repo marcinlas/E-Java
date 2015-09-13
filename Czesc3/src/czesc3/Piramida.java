@@ -22,7 +22,6 @@ public class Piramida {
            System.out.println("");
            dlugosc=0;
            wysokosc++;
-  
         }
     }
 }
