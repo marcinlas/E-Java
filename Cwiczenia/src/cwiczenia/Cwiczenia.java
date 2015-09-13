@@ -21,7 +21,8 @@ public class Cwiczenia {
        jacek.nazwisko = "Placek";
        jacek.dzien = 14;
        jacek.miesiac = 02;
-       jacek.rok = 95;
+       jacek.rok = 1995;
+       jacek.pesel = 941419123;
        
        Osoba marek = new Osoba();
        marek.imie = "Marek";
@@ -29,6 +30,7 @@ public class Cwiczenia {
        marek.dzien = 24;
        marek.miesiac = 12;
        marek.rok = 1992;
+       marek.pesel = 921219123;
        
        Osoba[] osoba = 
        {
@@ -41,9 +43,21 @@ public class Cwiczenia {
 
    
     public static void porownaj(Osoba[] osoba) {
-        System.out.println(osoba[0].imie+ " " +osoba[0].nazwisko);
-        System.out.println(osoba[0].dzien+"-"+osoba[0].miesiac+"-"+osoba[0].rok);
+       
+        int i = 0; 
         
+        while (i<osoba.length) {
+            System.out.println("Imie i nazwisko:    "+osoba[i].imie+ " " +osoba[i].nazwisko);
+            System.out.println("Data urodzenia: "+osoba[i].dzien+"-"+osoba[1].miesiac+"-"+osoba[i].rok);
+            
+            // isEquals
+            
+            System.out.println("PESEL:  "+osoba[i].pesel); 
+            i++;
+            
+        };
+        
+
            
     }
 }
