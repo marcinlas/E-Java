@@ -38,6 +38,10 @@ public class Cwiczenia {
        };
        
        porownaj(osoba);
+       
+       porownaj(new Osoba[] {
+        mirek,jacek,marek}
+    );
     
     }
 
