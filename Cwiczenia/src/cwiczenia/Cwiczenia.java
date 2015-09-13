@@ -1,5 +1,6 @@
 /*
-
+Wykonaj program, który porównuje dane trzech osób: Imię, nazwisko, dzień, 
+miesiąc i rok urodzenia, pesel oraz adres zamieszkania
  */
 package cwiczenia;
 
