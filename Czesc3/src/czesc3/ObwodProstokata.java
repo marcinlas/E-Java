@@ -14,7 +14,7 @@ public class ObwodProstokata {
         
         while (i<wysokosc) {
             while (j<dlugosc) {
-                if (i==0 || i==6 ) {         //    || <=====  lub
+                if (i==0 || i==6 ) {       //    || <=====  lub
                     System.out.print("*");
                 } else {
                     if (j==0 || j==4) {
